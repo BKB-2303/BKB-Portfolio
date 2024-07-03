@@ -6,7 +6,7 @@ function WorkItem({ imgUrl, title, tech, workUrl }) {
 			href={workUrl}
 			target="_blank"
 			rel="noreferrer"
-			className="bg-slate-300 dark:bg-stone-800 rounded-lg overflow-hidden"
+			className="bg-stone-700 rounded-lg overflow-hidden"
 		>
 			<img
 				src={imgUrl}
@@ -21,7 +21,7 @@ function WorkItem({ imgUrl, title, tech, workUrl }) {
 					{tech.map(item => (
 						<span
 							key={item}
-							className="inline-block px-2 py-1 bg-stone-900 rounded-md"
+							className="inline-block px-2 py-1 bg-stone-950 rounded-md"
 						>
 							{item}
 						</span>

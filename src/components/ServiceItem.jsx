@@ -2,7 +2,7 @@ import React from 'react';
 
 function ServiceItem({ title, icon, description }) {
   return (
-    <div className="group  bg-stone-900 hover:bg-stone-950 border border-dotted border-slate-200 hover:-translate-y-2 transform transition rounded-md p-5">
+    <div className="group  bg-stone-800 hover:bg-stone-950 border border-dotted border-slate-200 hover:-translate-y-2 transform transition rounded-md p-5">
       <div className="text-orange-500  w-6 h-6 mb-3">
         {icon}
       </div>
