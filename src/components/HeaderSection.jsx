@@ -52,7 +52,7 @@ function HeaderSection() {
   };
 
   return (
-    <div id="hero" className="flex items-center justify-center flex-col py-20">
+    <div id="hero" className="flex items-center justify-center flex-col py-20 bg-gradient-to-b from-stone-950 to-stone-800">
       <div className="text-center">
         <h1 className="text-2xl md:text-4xl mb-1 md:mb-3 text-yellow-400 font-semibold font-dancing-script">
           <span className="text-4xl md:text-5xl">Hi !</span> This is Bikash Borah
