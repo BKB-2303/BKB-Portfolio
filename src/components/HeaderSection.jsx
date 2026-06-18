@@ -73,10 +73,10 @@ function HeaderSection() {
           <a href="https://github.com/BKB-2303"   target="_blank" className="mr-6" onMouseEnter={() => handleIconHover('github')} onMouseLeave={handleIconLeave}>
             <FontAwesomeIcon icon={faGithub} size="2x" style={{ ...iconStyle, ...getHoverStyle('github') }} />
           </a>
-          <a href="https://instagram.com/bikash_bor_ah?igshid=YmMyMTA2M2Y="   target="_blank" className="mr-6" onMouseEnter={() => handleIconHover('instagram')} onMouseLeave={handleIconLeave}>
+          <a href="https://www.instagram.com/bikashborah.in"   target="_blank" className="mr-6" onMouseEnter={() => handleIconHover('instagram')} onMouseLeave={handleIconLeave}>
             <FontAwesomeIcon icon={faInstagram} size="2x" style={{ ...iconStyle, ...getHoverStyle('instagram') }} />
           </a>
-          <a href="https://www.facebook.com/profile.php?id=100068052742091&mibextid=D4KYlr"  target="_blank"  className="mr-6" onMouseEnter={() => handleIconHover('facebook')} onMouseLeave={handleIconLeave}>
+          <a href="https://www.facebook.com/profile.php/?id=61569718541309"  target="_blank"  className="mr-6" onMouseEnter={() => handleIconHover('facebook')} onMouseLeave={handleIconLeave}>
             <FontAwesomeIcon icon={faFacebook} size="2x" style={{ ...iconStyle, ...getHoverStyle('facebook') }} />
           </a>
           <a href="#"   target="_blank" className="mr-6" onMouseEnter={() => handleIconHover('twitter')} onMouseLeave={handleIconLeave}>
